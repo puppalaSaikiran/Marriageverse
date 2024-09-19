@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+  }
+  
+.logo-couple {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+
+  .contents-logo {
+    margin-bottom: 20px;
+  }
+  
+  .contents-logo h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contents-logo .matches {
+    color: #FF6347;
+  }
+  
+  .contents-logo p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+
+  .couples-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .couples-img .img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  .playstores {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .store-img {
+    width: 150px;
+    height: auto;
+  }
+  
+ 
+  @media (min-width: 768px) {
+    .contents-logo h1 {
+      font-size: 2.5rem;
+    }
+  
+    .contents-logo p {
+      font-size: 1.2rem;
+    }
+  
+    .store-img {
+      width: 200px;
+    }
+  }
+  

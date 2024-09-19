@@ -1,0 +1,112 @@
+.header-container {
+  position: relative;
+  width: 100%;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%; 
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.logos {
+  width: 140px;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-items li {
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.div-tools {
+  display: flex;
+  align-items: center;
+}
+
+.img-navbar {
+  margin-left: 15px;
+  width: 140px;
+}
+
+.img-navbar[alt='Apple Store'] {
+  width: 35%;
+}
+
+@media (max-width: 468px) {
+  .Navbar {
+    padding: 10px 3%; 
+  }
+
+  .nav-items {
+    flex-direction: column;
+    position: static;
+    width: 100%;
+    background-color: white;
+    display: none;
+    z-index: 1;
+  }
+
+  .nav-items.show {
+    display: flex;
+  }
+
+  .nav-items li {
+    display: block;
+    margin: 5px 0;
+    padding: 8px 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .menu-icon {
+    display: block;
+    width: 25px;
+  }
+
+  .div-tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .img-navbar {
+    margin-left: 0;
+    width: 48%;
+  }
+}
+
+@media (max-width: 450px) {
+  .logos {
+    width: 100px;
+  }
+
+  .img-navbar {
+    width: 48%;
+  }
+
+  .div-tools {
+    margin-top: 5px;
+  }
+}
+
+

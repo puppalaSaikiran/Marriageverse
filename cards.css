@@ -1,0 +1,65 @@
+.entire{
+    width: 100%;
+    /* padding-bottom: 5%; */
+}
+.card-section-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .imgtext, .imgtext1, .imgtext2 {
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .imgtext img, .imgtext1 img, .imgtext2 img {
+    width: 50%;
+    height: auto;
+    
+  }
+  
+  .colls1, .colls2, .colls3 {
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding: 4%;
+    align-items: center;
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .colls1, .colls2, .colls3 {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      align-items: flex-start;
+    }
+  
+    .imgtext, .imgtext1, .imgtext2 {
+      width: 49%;
+      margin-bottom: 0;
+      justify-content: flex-start;
+    }
+  
+    .imgtext[alt='viverra'], .imgtext1[alt='profile'], .imgtext2[alt='habitasse'] {
+      padding-left: 5%;
+    }
+  }
+  
+  .imgtext, .imgtext1, .imgtext2 {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .colls1, .colls2, .colls3 {
+    padding: 5px 0;
+  }
